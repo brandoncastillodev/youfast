@@ -89,7 +89,7 @@ footer {
 }
 .boton-idioma-contenedor-dark button:hover, .boton-idioma-contenedor-dark button:focus {
   background-color: rgba(242, 243, 242, 0.8980392157);
-  color: transparent;
+  color: #2a2a2a;
 }
 
 .titulo {
@@ -133,7 +133,7 @@ footer {
 }
 .botones-dark button:hover, .botones-dark button:focus {
   background-color: rgba(242, 243, 242, 0.8980392157);
-  color: transparent;
+  color: #2a2a2a;
 }
 
 @media only screen and (max-width: 759px) {
