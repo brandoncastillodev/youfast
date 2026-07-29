@@ -118,12 +118,6 @@ function Home() {
         YouFast
       </h1>
 
-      <div className="top" style={{ fontSize: "0.9rem", opacity: 0.7 }}>
-        <kbd>/</kbd> {esp ? "buscar" : "search"}
-        {" · "}
-        <kbd>Ctrl+←</kbd> / <kbd>Ctrl+→</kbd> {esp ? "navegar" : "navigate"}
-      </div>
-
       {access ? (
         <>
           <form onSubmit={handleSearch} role="search" aria-label={esp ? "Buscar canciones" : "Search songs"}>
